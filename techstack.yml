@@ -1,0 +1,766 @@
+repo_name: todaypp/park-ui
+report_id: 1d69d7f2278e339a93577bc8b3b7215b
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-23T13:12:21+00:00'
+requested_by: kovsu
+provider: github
+branch: main
+detected_tools_count: 56
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/todaypp/park-ui
+  detection_source: Repo Metadata
+- name: Handlebars.js
+  description: Minimal Templating on Steroids
+  website_url: http://handlebarsjs.com/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/1143/Handlebars.png
+  detection_source_url: https://github.com/todaypp/park-ui
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/todaypp/park-ui
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/todaypp/park-ui
+  detection_source: Repo Metadata
+- name: Autoprefixer
+  description: PostCSS plugin to parse CSS and add vendor prefixes to CSS rules
+  website_url: https://github.com/postcss/autoprefixer
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png
+  detection_source_url: https://github.com/todaypp/park-ui/blob/main/examples/tailwind/react/gatsby/package.json
+  detection_source: examples/tailwind/react/gatsby/package.json
+  last_updated_by: Simon Holzmayer
+  last_updated_on: 2023-10-21 14:35:47.000000000 Z
+- name: Next.js
+  description: 'A small framework for server-rendered universal JavaScript apps '
+  website_url: https://nextjs.org/
+  version: 13.5.1
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/5936/nextjs.png
+  detection_source_url: https://github.com/todaypp/park-ui/blob/main/examples/panda/react/next-js/package-lock.json
+  detection_source: examples/panda/react/next-js/package.json
+  last_updated_by: Christian Schröter
+  last_updated_on: 2023-08-10 15:13:28.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/todaypp/park-ui/blob/main/cli/package.json
+  detection_source: cli/package.json
+  last_updated_by: Christian Schröter
+  last_updated_on: 2023-08-02 13:11:53.000000000 Z
+- name: Nuxt.js
+  description: The Vue.js Framework
+  website_url: https://nuxtjs.org
+  version: 3.8.2
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/7304/23360933.png
+  detection_source_url: https://github.com/todaypp/park-ui/blob/main/examples/panda/vue/nuxt/package-lock.json
+  detection_source: examples/panda/vue/nuxt/package.json
+  last_updated_by: Christian Schröter
+  last_updated_on: 2023-09-01 10:17:07.000000000 Z
+- name: PostCSS
+  description: Transform CSS with JS plugins
+  website_url: https://github.com/postcss/postcss
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/3339/rlFcjEdI.png
+  detection_source_url: https://github.com/todaypp/park-ui/blob/main/examples/panda/react/gatsby/package.json
+  detection_source: examples/panda/react/gatsby/package.json
+  last_updated_by: Christian Schröter
+  last_updated_on: 2023-08-10 18:16:57.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/todaypp/park-ui/blob/main/examples/panda/react/astro/package-lock.json
+  detection_source: components/react/package.json
+  last_updated_by: Christian Schröter
+  last_updated_on: 2024-01-01 18:27:36.000000000 Z
+- name: Storybook
+  description: Build bulletproof UI components faster
+  website_url: https://storybook.js.org/
+  version: 7.6.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/9240/sOct-Txm_400x400.png
+  detection_source_url: https://github.com/todaypp/park-ui/blob/main/components/react/package.json
+  detection_source: components/react/package.json
+  last_updated_by: Christian Schröter
+  last_updated_on: 2024-01-01 18:27:36.000000000 Z
+- name: Tailwind CSS
+  description: A utility-first CSS framework for rapid UI development
+  website_url: https://tailwindcss.com
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/8158/default_660b7c41c3ba489cb581eec89c04655404258c19.png
+  detection_source_url: https://github.com/todaypp/park-ui/blob/main/examples/tailwind/react/astro/package.json
+  detection_source: examples/tailwind/react/astro/package.json
+  last_updated_by: Simon Holzmayer
+  last_updated_on: 2023-12-07 21:23:50.000000000 Z
+- name: Vue.js
+  description: A progressive framework for building user interfaces
+  website_url: http://vuejs.org/
+  version: 3.3.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript MVC Frameworks
+  image_url: https://img.stackshare.io/service/3837/paeckCWC.png
+  detection_source_url: https://github.com/todaypp/park-ui/blob/main/examples/panda/vue/nuxt/package-lock.json
+  detection_source: examples/panda/vue/nuxt/package.json
+  last_updated_by: Christian Schröter
+  last_updated_on: 2023-09-01 10:17:07.000000000 Z
+- name: Zustand
+  description: Bear necessities for state management in React
+  website_url: https://github.com/react-spring/zustand
+  version: 4.4.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Monitoring for Analytics
+  image_url: https://img.stackshare.io/service/11559/zustand.png
+  detection_source_url: https://github.com/todaypp/park-ui/blob/main/website/package.json
+  detection_source: website/package.json
+  last_updated_by: Christian Schröter
+  last_updated_on: 2023-11-28 09:49:31.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/todaypp/park-ui/blob/main/examples/panda/react/next-js/package.json
+  detection_source: examples/panda/react/next-js/package.json
+  last_updated_by: Christian Schröter
+  last_updated_on: 2023-08-10 15:13:28.000000000 Z
+- name: Esbuild
+  description: An extremely fast JavaScript bundler
+  website_url: https://esbuild.github.io/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/25166/default_2dcc9286a150737a14625d18f6f93747f72be430.png
+  detection_source_url: https://github.com/todaypp/park-ui/blob/main/examples/panda/solid/solid-start/package.json
+  detection_source: examples/panda/solid/solid-start/package.json
+  last_updated_by: Christian Schröter
+  last_updated_on: 2023-11-24 09:25:39.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/todaypp/park-ui
+  detection_source: Repo Metadata
+- name: Prettier
+  description: 'Prettier is an opinionated code formatter. '
+  website_url: https://prettier.io/
+  version: 2.8.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/todaypp/park-ui/blob/main/examples/panda/react/astro/package-lock.json
+  detection_source: components/scripts/package.json
+  last_updated_by: Christian Schröter
+  last_updated_on: 2023-12-11 16:00:25.000000000 Z
+- name: Vite
+  description: Native-ESM powered web dev build tool
+  website_url: https://vitejs.dev/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/21547/default_1aeac791cde11ff66cc0b20dcc6144eeb185c905.png
+  detection_source_url: https://github.com/todaypp/park-ui/blob/main/components/react/package.json
+  detection_source: components/react/package.json
+  last_updated_by: Christian Schröter
+  last_updated_on: 2023-12-31 14:51:55.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/todaypp/park-ui/blob/main/website/package.json
+  detection_source: website/package.json
+  last_updated_by: Christian Schröter
+  last_updated_on: 2023-08-02 13:11:53.000000000 Z
+- name: Gatsby
+  description: Free, open source framework for building blazing fast websites and
+    apps with React
+  website_url: https://www.gatsbyjs.org
+  version: 5.12.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Static Site Generators
+  image_url: https://img.stackshare.io/service/5472/default_189db484e0770a6101c6a70f0ef0172bc0f8de37.png
+  detection_source_url: https://github.com/todaypp/park-ui/blob/main/examples/panda/react/gatsby/package-lock.json
+  detection_source: examples/panda/react/gatsby/package.json
+  last_updated_by: Christian Schröter
+  last_updated_on: 2023-12-15 08:40:54.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/todaypp/park-ui
+  detection_source: Repo Metadata
+- name: husky
+  website_url: https://github.com/typicode/husky
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/9527/5502029.jpeg
+  detection_source_url: https://github.com/todaypp/park-ui/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Christian Schröter
+  last_updated_on: 2023-10-19 07:38:30.000000000 Z
+- name: lint-staged
+  website_url: https://github.com/okonet/lint-staged
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/10577/11071.jpeg
+  detection_source_url: https://github.com/todaypp/park-ui/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Christian Schröter
+  last_updated_on: 2023-12-06 08:17:46.000000000 Z
+- name: "@commitlint/cli"
+  description: Lint your commit messages
+  package_url: https://www.npmjs.com/@commitlint/cli
+  version: 18.4.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16059/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/todaypp/park-ui/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Christian Schröter
+  last_updated_on: 2023-12-31 13:49:20.000000000 Z
+- name: "@commitlint/config-conventional"
+  description: Shareable commitlint config enforcing conventional commits
+  package_url: https://www.npmjs.com/@commitlint/config-conventional
+  version: 18.4.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16092/default_8725384794b44fe56f31da1d21ae759cf07be7a5.png
+  detection_source_url: https://github.com/todaypp/park-ui/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Christian Schröter
+  last_updated_on: 2023-12-06 08:17:46.000000000 Z
+- name: "@emotion/styled"
+  description: Styled API for emotion
+  package_url: https://www.npmjs.com/@emotion/styled
+  version: 11.11.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16702/default_4b738bf1758d38dddd276589bbea47fca5a990df.png
+  detection_source_url: https://github.com/todaypp/park-ui/blob/main/plugins/chakra/package.json
+  detection_source: plugins/chakra/package.json
+  last_updated_by: Christian Schröter
+  last_updated_on: 2023-12-28 09:47:34.000000000 Z
+- name: "@storybook/addon-a11y"
+  description: A11y addon for storybook
+  package_url: https://www.npmjs.com/@storybook/addon-a11y
+  version: 7.6.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17117/default_9746cbb559e39df4afd8298f9a252dff8519e646.png
+  detection_source_url: https://github.com/todaypp/park-ui/blob/main/components/react/package.json
+  detection_source: components/react/package.json
+  last_updated_by: Christian Schröter
+  last_updated_on: 2024-01-01 18:27:36.000000000 Z
+- name: "@storybook/addons"
+  description: Storybook addons store
+  package_url: https://www.npmjs.com/@storybook/addons
+  version: 7.6.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16200/default_b4f5b6f31c5ab1ffee4bacf20842cd41a8f2658d.png
+  detection_source_url: https://github.com/todaypp/park-ui/blob/main/components/react/package.json
+  detection_source: components/react/package.json
+  last_updated_by: Christian Schröter
+  last_updated_on: 2024-01-01 18:27:36.000000000 Z
+- name: "@storybook/react"
+  description: 'Storybook for React: Develop React Component in isolation with Hot
+    Reloading'
+  package_url: https://www.npmjs.com/@storybook/react
+  version: 7.6.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16042/default_72d4237e6719b7d75d0307bf8b5718584fdc3425.png
+  detection_source_url: https://github.com/todaypp/park-ui/blob/main/components/react/package.json
+  detection_source: components/react/package.json
+  last_updated_by: Christian Schröter
+  last_updated_on: 2024-01-01 18:27:36.000000000 Z
+- name: "@types/fs-extra"
+  description: TypeScript definitions for fs-extra
+  package_url: https://www.npmjs.com/@types/fs-extra
+  version: 11.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16170/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: https://github.com/todaypp/park-ui/blob/main/components/scripts/package.json
+  detection_source: components/scripts/package.json
+  last_updated_by: Christian Schröter
+  last_updated_on: 2023-12-31 14:51:55.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 20.9.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/todaypp/park-ui/blob/main/examples/panda/react/astro/package-lock.json
+  detection_source: cli/package.json
+  last_updated_by: Christian Schröter
+  last_updated_on: 2023-12-08 09:17:28.000000000 Z
+- name: "@types/react"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react
+  version: 18.2.45
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/todaypp/park-ui/blob/main/examples/panda/react/astro/package-lock.json
+  detection_source: components/react/package.json
+  last_updated_by: Christian Schröter
+  last_updated_on: 2024-01-01 18:27:36.000000000 Z
+- name: "@types/react-dom"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react-dom
+  version: 18.2.17
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15946/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/todaypp/park-ui/blob/main/examples/panda/react/astro/package-lock.json
+  detection_source: components/react/package.json
+  last_updated_by: Christian Schröter
+  last_updated_on: 2024-01-01 18:27:36.000000000 Z
+- name: "@types/yargs"
+  description: TypeScript definitions for yargs
+  package_url: https://www.npmjs.com/@types/yargs
+  version: 17.0.32
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16404/default_9ae0e75ed749aca83d89f7e1ccb309be2bfc610e.png
+  detection_source_url: https://github.com/todaypp/park-ui/blob/main/cli/package.json
+  detection_source: cli/package.json
+  last_updated_by: Christian Schröter
+  last_updated_on: 2023-12-08 09:17:28.000000000 Z
+- name: cheerio
+  description: Fast, flexible, and lean implementation of core jQuery
+  package_url: https://www.npmjs.com/cheerio
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15949/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/todaypp/park-ui/blob/main/website/package.json
+  detection_source: website/package.json
+  last_updated_by: Christian Schröter
+  last_updated_on: 2023-09-29 21:41:28.000000000 Z
+- name: commander
+  description: The complete solution for node.js command-line programs
+  package_url: https://www.npmjs.com/commander
+  version: 7.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15829/default_50135978d26eba7c09093ceb23b96d522898e4eb.png
+  detection_source_url: https://github.com/todaypp/park-ui/blob/main/examples/panda/react/gatsby/package-lock.json
+  detection_source: components/scripts/package.json
+  last_updated_by: Christian Schröter
+  last_updated_on: 2023-11-24 17:55:34.000000000 Z
+- name: deepmerge
+  description: A library for deep
+  package_url: https://www.npmjs.com/deepmerge
+  version: 4.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16179/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
+  detection_source_url: https://github.com/todaypp/park-ui/blob/main/examples/panda/react/astro/package-lock.json
+  detection_source: plugins/panda/package.json
+  last_updated_by: Christian Schröter
+  last_updated_on: 2023-10-24 08:52:49.000000000 Z
+- name: eslint-config-next
+  description: ESLint configuration used by Next.js
+  package_url: https://www.npmjs.com/eslint-config-next
+  version: 14.0.4
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/todaypp/park-ui/blob/main/examples/panda/react/next-js/package-lock.json
+  detection_source: examples/panda/react/next-js/package.json
+  last_updated_by: Christian Schröter
+  last_updated_on: 2023-12-15 08:32:48.000000000 Z
+- name: eslint-plugin-flowtype
+  description: Flowtype linting rules for ESLint
+  package_url: https://www.npmjs.com/eslint-plugin-flowtype
+  version: 8.0.3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15940/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/todaypp/park-ui/blob/main/examples/panda/react/gatsby/package-lock.json
+  detection_source: examples/panda/react/gatsby/package.json
+  last_updated_by: Christian Schröter
+  last_updated_on: 2023-12-15 08:40:54.000000000 Z
+- name: find-up
+  description: Find a file or directory by walking up parent directories
+  package_url: https://www.npmjs.com/find-up
+  version: 5.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17030/default_824835a71140f223a333a5e10225c10368f12857.png
+  detection_source_url: https://github.com/todaypp/park-ui/blob/main/examples/panda/react/astro/package-lock.json
+  detection_source: components/scripts/package.json
+  last_updated_by: Christian Schröter
+  last_updated_on: 2023-11-24 19:14:10.000000000 Z
+- name: fs-extra
+  description: Fs-extra contains methods that aren't included in the vanilla Node.js
+    fs package
+  package_url: https://www.npmjs.com/fs-extra
+  version: 11.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15836/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/todaypp/park-ui/blob/main/examples/panda/react/astro/package-lock.json
+  detection_source: components/scripts/package.json
+  last_updated_by: Christian Schröter
+  last_updated_on: 2023-11-28 09:49:31.000000000 Z
+- name: globby
+  description: User-friendly glob matching
+  package_url: https://www.npmjs.com/globby
+  version: 11.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16159/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: https://github.com/todaypp/park-ui/blob/main/examples/panda/react/gatsby/package-lock.json
+  detection_source: components/scripts/package.json
+  last_updated_by: Christian Schröter
+  last_updated_on: 2024-01-01 19:09:45.000000000 Z
+- name: handlebars
+  description: Handlebars provides the power necessary to let you build semantic templates
+    effectively with no frustration
+  package_url: https://www.npmjs.com/handlebars
+  version: 4.7.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16013/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: https://github.com/todaypp/park-ui/blob/main/components/scripts/package.json
+  detection_source: components/scripts/package.json
+  last_updated_by: Simon Holzmayer
+  last_updated_on: 2023-11-07 21:33:50.000000000 Z
+- name: husky
+  description: Prevents bad commit or push
+  package_url: https://www.npmjs.com/husky
+  version: 8.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15831/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/todaypp/park-ui/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Christian Schröter
+  last_updated_on: 2023-10-19 07:38:30.000000000 Z
+- name: lint-staged
+  description: Lint files staged by git
+  package_url: https://www.npmjs.com/lint-staged
+  version: 15.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15868/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/todaypp/park-ui/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Christian Schröter
+  last_updated_on: 2023-12-06 08:17:46.000000000 Z
+- name: node-fetch
+  description: A light-weight module that brings window.fetch to node.js
+  package_url: https://www.npmjs.com/node-fetch
+  version: 2.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15978/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/todaypp/park-ui/blob/main/examples/panda/react/gatsby/package-lock.json
+  detection_source: cli/package.json
+  last_updated_by: Simon Holzmayer
+  last_updated_on: 2023-11-28 20:22:19.000000000 Z
+- name: pkg-dir
+  description: Find the root directory of a Node.js project or npm package
+  package_url: https://www.npmjs.com/pkg-dir
+  version: 4.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18021/default_d8756eea8d13a271fb42437ffb36c0a116d72925.png
+  detection_source_url: https://github.com/todaypp/park-ui/blob/main/examples/panda/react/astro/package-lock.json
+  detection_source: cli/package.json
+  last_updated_by: Christian Schröter
+  last_updated_on: 2023-11-27 08:51:10.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/todaypp/park-ui/blob/main/examples/panda/react/astro/package-lock.json
+  detection_source: components/react/package.json
+  last_updated_by: Christian Schröter
+  last_updated_on: 2024-01-01 18:27:36.000000000 Z
+- name: react-live
+  description: A production-focused playground for live editing React code
+  package_url: https://www.npmjs.com/react-live
+  version: 4.1.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18625/default_6aa055317c2b28723235bf769cdc93c28d788d16.png
+  detection_source_url: https://github.com/todaypp/park-ui/blob/main/website/package.json
+  detection_source: website/package.json
+  last_updated_by: Christian Schröter
+  last_updated_on: 2023-12-31 13:28:40.000000000 Z
+- name: release-it
+  description: CLI release tool for Git repos and npm packages
+  package_url: https://www.npmjs.com/release-it
+  version: 17.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16490/default_2e7c1d6d94467a56325f7c984571015e8713a450.png
+  detection_source_url: https://github.com/todaypp/park-ui/blob/main/cli/package.json
+  detection_source: cli/package.json
+  last_updated_by: Christian Schröter
+  last_updated_on: 2023-12-08 09:17:28.000000000 Z
+- name: tailwindcss
+  description: A utility-first CSS framework for rapidly building custom user interfaces
+  package_url: https://www.npmjs.com/tailwindcss
+  version: 3.3.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17398/default_2cd7ed1c123f2fca074a6f4b16c4e73d5bfe82be.png
+  detection_source_url: https://github.com/todaypp/park-ui/blob/main/examples/tailwind/react/astro/package-lock.json
+  detection_source: examples/tailwind/react/astro/package.json
+  last_updated_by: Simon Holzmayer
+  last_updated_on: 2023-12-07 21:23:50.000000000 Z
+- name: tsx
+  description: TypeScript Execute
+  package_url: https://www.npmjs.com/tsx
+  version: 4.7.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/todaypp/park-ui/blob/main/cli/package.json
+  detection_source: cli/package.json
+  last_updated_by: Christian Schröter
+  last_updated_on: 2023-08-02 13:11:53.000000000 Z
+- name: vite
+  description: Native-ESM powered web dev build tool
+  package_url: https://www.npmjs.com/vite
+  version: 5.0.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/todaypp/park-ui/blob/main/examples/panda/react/astro/package-lock.json
+  detection_source: components/react/package.json
+  last_updated_by: Christian Schröter
+  last_updated_on: 2024-01-01 18:27:36.000000000 Z
+  vulnerabilities:
+  - name: Vite dev server option `server.fs.deny` can be bypassed when hosted on case-insensitive
+      filesystem
+    cve_id: CVE-2024-23331
+    cve_url: https://github.com/advisories/GHSA-c24v-8rfc-w8vw
+    detected_date: Jan 20
+    severity: high
+    first_patched: 5.0.12
+  - name: Vite XSS vulnerability in `server.transformIndexHtml` via URL payload
+    cve_id: CVE-2023-49293
+    cve_url: https://github.com/advisories/GHSA-92r3-m2mg-pj97
+    detected_date: Dec 6
+    severity: moderate
+    first_patched: 5.0.5
+- name: vue
+  description: Vue
+  package_url: https://www.npmjs.com/vue
+  version: 3.3.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15844/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/todaypp/park-ui/blob/main/examples/panda/vue/nuxt/package-lock.json
+  detection_source: examples/panda/vue/nuxt/package.json
+  last_updated_by: Christian Schröter
+  last_updated_on: 2023-09-01 10:17:07.000000000 Z
+- name: yargs
+  description: Yargs the modern, pirate-themed, successor to optimist
+  package_url: https://www.npmjs.com/yargs
+  version: 15.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15887/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
+  detection_source_url: https://github.com/todaypp/park-ui/blob/main/examples/panda/react/gatsby/package-lock.json
+  detection_source: cli/package.json
+  last_updated_by: Christian Schröter
+  last_updated_on: 2023-11-27 08:51:10.000000000 Z
